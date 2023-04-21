@@ -1,0 +1,91 @@
+@media screen and (max-width: 366px) {
+	.benefit {
+		flex-direction: column;
+		gap: 7px;
+		height: 250px;
+		text-align: center;
+	}
+}
+
+@media screen and (min-width: 768px) {
+	.headline {
+		padding: 2rem;
+		flex-direction: row;
+		justify-content: space-evenly;
+		align-items: center;
+	}
+
+	.headline-text .title {
+		max-width: 100%;
+		text-align: left;
+	}
+
+	.headline-text .subtitle {
+		text-align: left;
+	}
+
+	.headline-banner img {
+		width: 500px;
+	}
+
+	.headline-text .lean-more-btn {
+		margin: 0;
+	}
+
+	.lean-more-btn:hover {
+		transform: scale(1.1);
+	}
+
+	.footer-content .list-item a:hover {
+		color: #8a6df2;
+	}
+}
+
+@media screen and (min-width: 992px) {
+	.headline {
+		padding: 0;
+	}
+
+	.container-benefits {
+		flex-direction: row;
+		justify-content: space-evenly;
+		padding: 2rem;
+	}
+
+	.benefits-text .title {
+		max-width: 100%;
+		text-align: left;
+	}
+
+	.benefits-text .subtitle {
+		text-align: left;
+	}
+
+	.benefits-text .description {
+		display: block;
+		max-width: 300px;
+		font-weight: 300;
+		margin-bottom: 2rem;
+		text-align: justify;
+	}
+
+	.benefits-text img {
+		display: block;
+		width: 200px;
+	}
+
+	.parking-options .options {
+		flex-direction: row;
+	}
+
+	.footer-content .content-details {
+		flex-direction: row;
+		margin: 0 auto;
+		gap: 64px;
+	}
+
+	.footer-content .contact-info {
+		display: flex;
+		flex-direction: column;
+	}
+}

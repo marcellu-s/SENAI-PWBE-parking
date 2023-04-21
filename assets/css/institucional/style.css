@@ -1,0 +1,182 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', system-ui, sans-serif;
+}
+
+html, body {
+    width: 100%;
+    height: 100vh;
+}
+
+header, main, .footer-content {
+    max-width: 1200px;
+    margin: 0 auto 0 auto;
+}
+
+header a:hover {
+		color: #8a6df2;
+}
+
+.about-title {
+    font-size: 60px; 
+    color: white;
+}
+
+.corpo, .container-fluid {
+    padding: 0px;
+}
+
+
+.row {
+    margin: 0;
+}
+
+.link {
+    color: white;
+    text-decoration: none;
+}
+
+.branco {
+    color: white;
+}
+
+.link:hover {
+    color: #8A6DF2;
+}
+
+#content {
+    color: black;
+    background-color: white;
+    margin-top: -10px;
+    max-width: 700px;
+    text-align: justify;
+    margin: 0 auto;
+    margin-bottom: 3rem;
+}
+
+#linha {
+    height: 1px;
+    width: 100%;
+    background-color: #939393;
+}
+
+
+
+.cartao, .topo {
+    padding: 0px;
+}
+
+.botao_programacao {
+    background: #8A6DF2;
+    width: 150px;
+}
+
+.filmes {
+    max-width: 18rem; outline: 1px solid #ffffff;
+}
+
+.about-header{
+    background-color: #ffffff;
+}
+@media screen and (max-width: 778px) {
+    #content{
+        padding: 2rem;
+    }
+}
+.about-title{
+    color: #8A6DF2;
+    font-size: 40px;
+    margin-left: 50px;
+}
+
+.about-subtitle{
+    font-size: 40px;
+    font-weight: bold;
+    padding: 2rem;
+    text-align: center;
+}
+.about-content{
+    background-color: #ffffff;
+    margin-top: -10px;
+    max-width: 600px;
+    text-align: justify;
+    margin: 0 auto;
+}
+.about-caracteristc{
+    background-color: #ffffff;
+    -ms-flex-align: center;
+    text-align: justify;
+    margin: 0 auto;
+    padding: 10px;  
+}
+.caracteristic{
+    color: #8A6DF2;
+    text-indent: 15px;
+}
+.caracteristic-info{
+    text-indent: 15px;
+    margin: 1rem;
+}
+
+/* Footer */
+
+#footer-fluid {
+    background-color: #333;
+  }
+  
+  .footer-content {
+    color: #fff;
+    padding: 3rem 2rem;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .footer-content .about-parking {
+    margin-bottom: 3rem;
+  }
+  
+  .about-parking .title {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+  }
+  
+  .footer-content .content-details {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 3rem;
+  }
+  
+  .content-details .title {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+  }
+  
+  .list-content {
+    margin-bottom: 2.5rem;
+  }
+  
+  .list-content .list-item {
+    font-size: 1rem;
+    font-weight: 400;
+  }
+  
+  .list-content .list-item::before{
+    content: '>\00A0';
+  }
+  
+  .footer-content .line-separator {
+    width: 100%;
+    height: 1px;
+    background-color: #aaa;
+    margin-bottom: 2rem;
+  }
+  
+  .footer-content .copyright {
+    align-self: center;
+    text-align: center;
+  }
+  

@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', system-ui, sans-serif;
+}
+
+.container {
+    width: 500px;
+    margin: 0 auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 1rem;
+}
+
+.container header {
+    padding: 1rem 1rem;
+    margin-bottom: 2rem;
+}
+
+.container header a {
+    text-decoration: none;
+}
+
+.customer-details {
+    display: flex;
+    flex-direction: column;
+}
+
+.text {
+    border-bottom: 1px solid #aaa;
+    margin-bottom: 1rem;
+    padding: 1rem;
+}
+
+.customer-details p {
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+}
+
+.customer-details span {
+    font-weight: 300;
+}
+
+.coin::before {
+    content: 'R$\00A0';
+}

@@ -1,0 +1,32 @@
+@media screen and (max-width: 368px) {
+    .card-header img {
+
+        display: none;
+    
+    }
+
+    .card-header h1.gradient {
+        background-image: linear-gradient(to bottom, #F263A6, #8A6DF2);
+        color: black;
+        background-clip: text;
+        -webkit-background-clip: text;
+    
+        /* Adicionado: */
+        -webkit-text-fill-color: transparent;
+    }
+    
+    .card-header h1  {
+        font-size: 3rem;
+        font-weight: bold;
+        line-height: 1.1;
+    }
+
+    .card-header h1 {
+
+        display: block;
+        text-align: center;
+        font-size: 1.5rem;
+        background-image: linear-gradient(to bottom, #F263A6, #8A6DF2);
+    
+    }
+}

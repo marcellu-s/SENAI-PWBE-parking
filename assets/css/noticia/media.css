@@ -1,0 +1,18 @@
+@media screen and (min-width: 668px) {
+    .news-image img {
+        max-width: 668px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .footer-content .content-details {
+        flex-direction: row;
+        margin: 0 auto;
+        gap: 64px;
+    }
+
+    .footer-content .contact-info {
+        display: flex;
+        flex-direction: column;
+    }
+}

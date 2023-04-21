@@ -1,0 +1,126 @@
+* {
+    font-family: 'Montserrat', sans-serif ; 
+}
+
+body {
+
+    padding: 0;
+
+    margin: 0;
+
+    background-color: #ffff;background: rgb(255,255,255);
+   
+}
+
+html, body {
+    width: 100%;
+    height: 100vh;
+}
+
+.navbar-control {
+    padding: 1rem;
+}
+
+.navbar-control i {
+    padding: 0.7rem;
+    border-radius: 50%;
+    background-color: #eee;
+    transition: background-color 0.3s;
+}
+
+.navbar-control i:hover {
+    background-color: #aaa;
+}
+
+.navbar-control span {
+    margin-left: 1rem;
+}
+
+#login {
+    padding-top: 4rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.card {
+    margin: 0 auto;
+
+    background-color: #fff;
+
+    padding: 40px;
+
+    border-radius: 2px;
+    max-width: 350px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.card-header {
+
+    margin-bottom: 0;
+
+}
+
+.card-header h1 {
+
+    display: none;
+
+}
+
+.card-header img {
+    width: 200px;
+    display: block;
+    margin: 0 auto;
+}
+
+.card-content label {
+
+    color: #333;
+
+    font-size: 1rem;
+    margin-bottom: .5rem;
+
+}
+
+.card-content-area {
+
+    display: flex;
+
+    flex-direction: column;
+
+    padding:20px 0;
+
+}
+
+.card-content-area input {
+    background-color: transparent;
+
+    border:none;
+
+    border-bottom: 1px solid #e1e1e1;
+
+    outline: none;
+
+    color: #000;
+
+    padding: .5rem 0 ;
+
+}
+
+.card-footer .submit{
+    border:none;
+    outline: none;
+    padding: .5rem 1.2rem;
+    background-image: linear-gradient(to bottom, #F263A6, #8A6DF2);
+    color: #fff;
+    border-radius: 12px;
+    font-weight: 600;
+    display: block;
+    margin: 0 auto;
+
+    transition: transform 0.3s;
+}
+
+.card-footer .submit:hover {
+    transform: scale(1.1);
+}

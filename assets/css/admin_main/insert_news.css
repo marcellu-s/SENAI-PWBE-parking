@@ -1,0 +1,91 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body, main {
+    width: 100%;
+    height: 100vh;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.navbar {
+    padding: 1rem;
+}
+
+.navbar i {
+    padding: 0.7rem;
+    border-radius: 50%;
+    background-color: #eee;
+    transition: background-color 0.3s;
+}
+
+.navbar i:hover {
+    background-color: #aaa;
+}
+
+.navbar span {
+    margin-left: 1rem;
+}
+
+.container-insert-news {
+    width: 90%;
+    padding: 3rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.input-control {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-control label {
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 1rem 0;
+}
+
+.input-control input {
+    border: none;
+    outline: none;
+    padding: 0.5rem 0;
+
+    border-bottom: 1px solid #333;
+}
+
+.input-control textarea {
+    padding: 0.5rem;
+}
+
+.btn-submit {
+    margin-top: 2rem;
+}
+
+.btn-submit button[type="submit"] {
+    display: block;
+    margin: 0 auto;
+
+    padding: 0.5rem 1.5rem;
+
+    border: none;
+    outline: none;
+
+    background-image: linear-gradient(to bottom, #F263A6, #8A6DF2);
+    border-radius: 10px;
+
+    color: #fff;
+    font-weight: 600;
+
+    transition: 0.3s;
+}
+
+.btn-submit button[type="submit"]:hover {
+    transform: scale(1.1);
+}

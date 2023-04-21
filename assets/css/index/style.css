@@ -1,0 +1,271 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', system-ui, sans-serif;
+}
+
+html, body {
+  width: 100%;
+  height: 100vh;
+}
+
+header, main, .footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+header {
+  margin-bottom: 2rem;
+}
+
+header a:hover {
+		color: #8a6df2;
+}
+
+/* MAIN */
+
+/* HEADLINE */
+
+.headline {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 4rem;
+}
+
+.headline-text .title {
+  max-width: 150px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 1.2rem;
+  color: #8A6DF2;
+  text-transform: capitalize;
+  margin-bottom: 1rem;
+}
+
+.headline-text .subtitle {
+  text-align: center;
+  font-size: 1.5rem;
+  text-transform: capitalize;
+  margin-bottom: 2rem;
+}
+
+.lean-more-btn {
+  border: none;
+  outline: none;
+  background-image: linear-gradient(to bottom, #F263A6, #8A6DF2);
+  color: #fff;
+  text-align: center;
+  font-weight: 600;
+  padding: 0.5rem 1rem;
+  border-radius: 14px;
+  display: block;
+  margin: 0 auto 2rem auto;
+  transition: 0.2s;
+}
+
+.headline-banner img {
+  width: 393px;
+}
+
+/* CONTAINER-BENEFITS */
+
+.container-benefits {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 3rem;
+}
+
+.benefits-text .title {
+  max-width: 250px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 1.2rem;
+  color: #8A6DF2;
+  text-transform: capitalize;
+  margin-bottom: 1rem;
+}
+
+.benefits-text .subtitle {
+  max-width: 350px;
+  text-align: center;
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.benefits-text .description {
+  display: none;
+}
+
+.benefits-text img {
+  display: none;
+}
+
+.benefits {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  padding: 3rem 1rem;
+  background-color: #6A70D9;
+}
+
+.benefit {
+  max-width: 450px;
+  height: 160px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+  padding: 1rem;
+  border-radius: 14px;
+  background-color: #fff;
+}
+
+.benefit img {
+  max-width: 100%;
+}
+
+.benefit-detail h3 {
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+}
+
+.benefit-detail p {
+  font-weight: 300;
+  font-size: 1rem;
+}
+
+/* PARKING OPTIONS */
+
+.parking-options {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.parking-options .title {
+  text-align: center;
+  font-size: 1.2rem;
+  color: #8A6DF2;
+  text-transform: capitalize;
+  margin-bottom: 1rem;
+}
+
+.parking-options .subtitle {
+  text-align: center;
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.parking-options .options {
+  display: flex;
+  flex-direction: column;
+  gap: 44px;
+  margin-bottom: 4rem;
+}
+
+.parking-options .option {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 300px;
+  text-align: center;
+  box-shadow: 0 0 8px #eee;
+  padding: 1.5rem 1rem;
+  height: 400px;
+  border-radius: 8px;
+  gap: 24px;
+}
+
+.option .option-hour {
+  font-size: 1.2rem;
+  color: #8A6DF2;
+}
+
+.option .option-price {
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.option .option-detail {
+  font-size: 1rem;
+  font-weight: 300;
+  margin-bottom: 1rem;
+}
+
+/* FOOTER */
+
+#footer-fluid {
+  background-color: #333;
+}
+
+.footer-content {
+  color: #fff;
+  padding: 3rem 2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-content .about-parking {
+  margin-bottom: 3rem;
+}
+
+.about-parking .title {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+}
+
+.footer-content .content-details {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 3rem;
+}
+
+.content-details .title {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+}
+
+.list-content {
+  margin-bottom: 2.5rem;
+}
+
+.list-content .list-item {
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.list-content .list-item::before{
+  content: '>\00A0';
+}
+
+.footer-content .line-separator {
+  width: 100%;
+  height: 1px;
+  background-color: #aaa;
+  margin-bottom: 2rem;
+}
+
+.footer-content .copyright {
+  align-self: center;
+  text-align: center;
+}
+
+#btn-to-top {
+  position: fixed;
+  bottom: 15px;
+  right: 15px;
+  font-size: 1.5rem;
+  color: #8A6DF2;
+  visibility: hidden;
+}
+
+#btn-to-top.visible {
+  visibility: visible;
+}

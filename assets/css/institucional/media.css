@@ -1,0 +1,21 @@
+@media screen and (min-width: 768px) {
+
+
+    .footer-content .list-item a:hover {
+        color: #8A6DF2;
+    }
+}
+
+@media screen and (min-width: 992px) {
+
+    .footer-content .content-details {
+        flex-direction: row;
+        margin: 0 auto;
+        gap: 64px;
+    }
+
+    .footer-content .contact-info {
+        display: flex;
+        flex-direction: column;
+    }
+}

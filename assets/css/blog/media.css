@@ -1,0 +1,39 @@
+@media screen and (min-width: 568px) {
+
+    .blog-container {
+        max-width: 100%;
+        padding: 2rem;
+    }
+    
+    .blog-post {
+        max-width: 90%;
+    }
+
+    .post-options {
+        justify-content: flex-end;
+
+    }
+
+    .post-image img {
+        float: left;
+        margin-right: 2rem;
+        width: 300px;
+    }
+
+    .post-image {
+        width: 300px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .footer-content .content-details {
+        flex-direction: row;
+        margin: 0 auto;
+        gap: 64px;
+    }
+
+    .footer-content .contact-info {
+        display: flex;
+        flex-direction: column;
+    }
+}
